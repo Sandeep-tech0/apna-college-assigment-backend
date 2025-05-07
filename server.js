@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const PORT = process.env.PORT || 3002;
 
-const DATABASE_URL = process.env.DATABASE_URL||"mongodb://localhost:27017/kwikbot";
+const DATABASE_URL = process.env.DATABASE_URL;
 //database Connection
 
 app.listen(PORT, ()=>{
